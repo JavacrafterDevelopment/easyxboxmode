@@ -1,3 +1,9 @@
+This app is completely Vibe Coded so use at own risk. The Xbox Mode GUI App can be used for easy enabling of both the xbox mode via vivetool and also the launch at startup using Registry Keys.
+
+Everything below that is written is also vibecoded so idk it may or may not be right.
+
+
+
 # Xbox Mode
 
 A command-line tool to enable Xbox-related features on Windows desktops.
