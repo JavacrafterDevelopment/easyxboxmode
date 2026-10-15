@@ -81,7 +81,7 @@ The license above covers this project's own files: `xboxmode.bat`,
 `xboxmode_gui.exe`. These bundled files are someone else's and keep their own
 licenses:
 
-| Files | From | License |
-|---|---|---|
-| `ViVeTool.exe`, `Albacore.ViVe.dll`, `FeatureDictionary.pfs` | [ViVeTool](https://github.com/thebookisclosed/ViVe) by thebookisclosed | GPL-3.0 ([text](LICENSE-GPL-3.0-ViVeTool.txt); source at that link) |
-| `Newtonsoft.Json.dll` | [Json.NET](https://github.com/JamesNK/Newtonsoft.Json) | MIT |
+| Files | From | Version | License |
+|---|---|---|---|
+| `ViVeTool.exe`, `Albacore.ViVe.dll`, `FeatureDictionary.pfs` | [ViVeTool](https://github.com/thebookisclosed/ViVe) by thebookisclosed | [v0.3.4](https://github.com/thebookisclosed/ViVe/releases/tag/v0.3.4), unmodified ([source for this version](https://github.com/thebookisclosed/ViVe/tree/v0.3.4)) | GPL-3.0 ([text](LICENSE-GPL-3.0-ViVeTool.txt)) |
+| `Newtonsoft.Json.dll` | [Json.NET](https://github.com/JamesNK/Newtonsoft.Json) by James Newton-King | [13.0.3](https://github.com/JamesNK/Newtonsoft.Json/releases/tag/13.0.3) | MIT |
