@@ -83,5 +83,10 @@ licenses:
 
 | Files | From | Version | License |
 |---|---|---|---|
-| `ViVeTool.exe`, `Albacore.ViVe.dll`, `FeatureDictionary.pfs` | [ViVeTool](https://github.com/thebookisclosed/ViVe) by thebookisclosed | [v0.3.4](https://github.com/thebookisclosed/ViVe/releases/tag/v0.3.4), unmodified ([source for this version](https://github.com/thebookisclosed/ViVe/tree/v0.3.4)) | GPL-3.0 ([text](LICENSE-GPL-3.0-ViVeTool.txt)) |
+| `ViVeTool.exe`, `Albacore.ViVe.dll`, `FeatureDictionary.pfs` | [ViVeTool](https://github.com/thebookisclosed/ViVe) by thebookisclosed | [v0.3.4](https://github.com/thebookisclosed/ViVe/releases/tag/v0.3.4) ([source for this version](https://github.com/thebookisclosed/ViVe/tree/v0.3.4)) | GPL-3.0 ([text](LICENSE-GPL-3.0-ViVeTool.txt)) |
 | `Newtonsoft.Json.dll` | [Json.NET](https://github.com/JamesNK/Newtonsoft.Json) by James Newton-King | [13.0.3](https://github.com/JamesNK/Newtonsoft.Json/releases/tag/13.0.3) | MIT |
+
+`ViVeTool.exe`, `Albacore.ViVe.dll` and `Newtonsoft.Json.dll` are byte-for-byte the
+files in ViVeTool's official v0.3.4 download. `FeatureDictionary.pfs`, ViVeTool's
+dictionary of feature names, is a different copy from the one in that download;
+ViVeTool fetches newer dictionaries itself with `/dictupdate`.
