@@ -58,3 +58,30 @@ HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\OEM
 ```
 
 `xboxmode handheldmode disable` deletes the `DeviceForm` value entirely (Windows does not create this key by default, so there is nothing to restore).
+
+## License
+
+Licensed under either of
+
+- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or https://www.apache.org/licenses/LICENSE-2.0)
+- MIT license ([LICENSE-MIT](LICENSE-MIT) or https://opensource.org/licenses/MIT)
+
+at your option.
+
+### Contribution
+
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
+dual licensed as above, without any additional terms or conditions.
+
+### Third-party components
+
+The license above covers this project's own files: `xboxmode.bat`,
+`xboxmode_gui.cs`, `xboxmode_gui.manifest`, `compile_gui.bat` and the built
+`xboxmode_gui.exe`. These bundled files are someone else's and keep their own
+licenses:
+
+| Files | From | License |
+|---|---|---|
+| `ViVeTool.exe`, `Albacore.ViVe.dll`, `FeatureDictionary.pfs` | [ViVeTool](https://github.com/thebookisclosed/ViVe) by thebookisclosed | GPL-3.0 ([text](LICENSE-GPL-3.0-ViVeTool.txt); source at that link) |
+| `Newtonsoft.Json.dll` | [Json.NET](https://github.com/JamesNK/Newtonsoft.Json) | MIT |
